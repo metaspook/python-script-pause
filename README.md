@@ -1,5 +1,5 @@
 # python-script-pause
-Pauses the program to Press any KEY.
+Pauses the program to Press Enter.
 
 ### 🎈 Features n Instruction:
 - Includable part for python script/program.
@@ -10,14 +10,14 @@ Pauses the program to Press any KEY.
 ```python
 # < COPY FROM.
 # KEEP THIS BELOW IN A SCRIPT.
-# Pauses the program to Press any KEY. | Python 2.x - 3.x supported.
+# Pauses the program to Press Enter. | Python 2.x - 3.x supported.
 try:input=raw_input
 except NameError:pass
-input("\n<Press any KEY to Exit>")
+input("\n<Press Enter to Exit>")
 # < COPY TO.
 ```
         
 ### 🎈 Output:
 ```
-"<Press any KEY to Exit>"
+"<Press Enter to Exit>"
 ```
